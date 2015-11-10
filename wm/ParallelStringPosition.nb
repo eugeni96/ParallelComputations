@@ -1,0 +1,1416 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     89553,       1407]
+NotebookOptionsPosition[     87825,       1342]
+NotebookOutlinePosition[     88222,       1359]
+CellTagsIndexPosition[     88179,       1356]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["set string", "Section",
+ CellChangeTimes->{{3.6505439256400633`*^9, 3.65054392927862*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "textString", " ", "=", " ", 
+   "\"\<Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean \
+commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et \
+magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, \
+ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis \
+enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In \
+enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum \
+felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus \
+elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, \
+porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus \
+in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius \
+laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. \
+Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas \
+tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet \
+adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, \
+hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae \
+sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci \
+eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. \
+Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue \
+velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend \
+sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. \
+Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit \
+fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices \
+posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium \
+turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet \
+iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, \
+consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus \
+ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat \
+pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. \
+Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. \
+Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo \
+pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. \
+Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur \
+ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas \
+malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. \
+Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum \
+ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; \
+Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat \
+dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus \
+metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede \
+sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean \
+posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin \
+urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, \
+suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac \
+venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede \
+quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices \
+posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus \
+dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque \
+habitant morbi tristique senectus et netus et malesuada fames ac turpis \
+egestas. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. In \
+ac felis quis tortor malesuada pretium. Pellentesque auctor neque nec urna. \
+Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Aenean viverra \
+rhoncus pede. Pellentesque habitant morbi tristique senectus et netus et \
+malesuada fames ac turpis egestas. Ut non enim eleifend felis pretium \
+feugiat. Vivamus quis mi. Phasellus a est. Phasellus magna. In hac habitasse \
+platea dictumst. Curabitur at lacus ac velit ornare lobortis. Curabitur a \
+felis in nunc fringilla tristique. Morbi mattis ullamcorper velit. Phasellus \
+gravida semper nisi. Nullam vel sem. Pellentesque libero tortor, tincidunt \
+et, tincidunt eget, semper nec, quam. Sed hendrerit. Morbi ac felis. Nunc \
+egestas, augue at pellentesque laoreet, felis eros vehicula leo, at malesuada \
+velit leo quis pede. Donec interdum, metus et hendrerit aliquet, dolor diam \
+sagittis ligula, eget egestas libero turpis vel mi. Nunc nulla. Fusce risus \
+nisl, viverra et, tempor et, pretium in, sapien. Donec venenatis vulputate \
+lorem. Morbi nec metus. Phasellus blandit leo ut odio. Maecenas ullamcorper, \
+dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis \
+nunc et lorem. Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. \
+In auctor lobortis lacus. Quisque libero metus, condimentum nec, tempor a, \
+commodo mollis, magna. Vestibulum ullamcorper mauris at ligula. Fusce \
+fermentum. Nullam cursus lacinia erat. Praesent blandit laoreet nibh. Fusce \
+convallis metus id felis luctus adipiscing. Pellentesque egestas, neque sit \
+amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non \
+est. Quisque id mi. Ut tincidunt tincidunt erat. Etiam feugiat lorem non \
+metus. Vestibulum dapibus nunc ac augue. Curabitur vestibulum aliquam leo. \
+Praesent egestas neque eu enim. In hac habitasse platea dictumst. Fusce a \
+quam. Etiam ut purus mattis mauris sodales aliquam. Curabitur nisi. Quisque \
+malesuada placerat nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, \
+molestie vel, lacus. Sed augue ipsum, egestas nec, vestibulum et, malesuada \
+adipiscing, dui. Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi \
+congue nunc, vitae euismod ligula urna in dolor. Mauris sollicitudin \
+fermentum libero. Praesent nonummy mi in odio. Nunc interdum lacus sit amet \
+orci. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, \
+id fringilla neque ante vel mi. Morbi mollis tellus ac sapien. Phasellus \
+volutpat, metus eget egestas mollis, lacus lacus blandit dui, id egestas quam \
+mauris ut lacus. Fusce vel dui. Sed in libero ut nibh placerat accumsan. \
+Proin faucibus arcu quis ante. In consectetuer turpis ut velit. Nulla sit \
+amet est. Praesent metus tellus, elementum eu, semper a, adipiscing nec, \
+purus. Cras risus ipsum, faucibus ut, ullamcorper id, varius ac, leo. \
+Suspendisse feugiat. Suspendisse enim turpis, dictum sed, iaculis a, \
+condimentum nec, nisi. Praesent nec nisl a purus blandit viverra. Praesent ac \
+massa at ligula laoreet iaculis. Nulla neque dolor, sagittis eget, iaculis \
+quis, molestie non, velit. Mauris turpis nunc, blandit et, volutpat molestie, \
+porta ut, ligula. Fusce pharetra convallis urna. Quisque ut nisi. Donec mi \
+odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse non nisl \
+sit amet velit hendrerit rutrum. Ut leo. Ut a nisl id ante tempus hendrerit. \
+Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed \
+gravida augue augue mollis justo. Suspendisse eu ligula. Nulla facilisi. \
+Donec id justo. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl \
+dignissim dolor, a pretium mi sem ut ipsum. Curabitur suscipit suscipit \
+tellus. Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id \
+nisl quis enim dignissim sagittis. Etiam sollicitudin, ipsum eu pulvinar \
+rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. \
+Proin magna. Duis vel nibh at velit scelerisque suscipit. Curabitur turpis. \
+Vestibulum suscipit nulla quis orci. Fusce ac felis sit amet ligula pharetra \
+condimentum. Maecenas egestas arcu quis ligula mattis placerat. Duis lobortis \
+massa imperdiet quam. Suspendisse potenti. Pellentesque commodo eros a enim. \
+Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. \
+Sed libero. Aliquam erat volutpat. Etiam vitae tortor. Morbi vestibulum \
+volutpat enim. Aliquam eu nunc. Nunc sed turpis. Sed mollis, eros et ultrices \
+tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Nulla \
+porta dolor. Class aptent taciti sociosqu ad litora torquent per conubia \
+nostra, per inceptos hymenaeos. Pellentesque dapibus hendrerit tortor. \
+Praesent egestas tristique nibh. Sed a libero. Cras varius. Donec vitae orci \
+sed dolor rutrum auctor. Fusce egestas elit eget lorem. Suspendisse nisl \
+elit, rhoncus eget, elementum ac, condimentum eget, diam. Nam at tortor in \
+tellus interdum sagittis. Aliquam lobortis. Donec orci lectus, aliquam ut, \
+faucibus non, euismod id, nulla. Curabitur blandit mollis lacus. Nam \
+adipiscing. Vestibulum eu odio. Vivamus laoreet. Nullam tincidunt adipiscing \
+enim. Phasellus tempus. Proin viverra, ligula sit amet ultrices semper, \
+ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Fusce neque. \
+Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis \
+tellus, vitae iaculis lacus elit id tortor. Vivamus aliquet elit ac nisl. \
+Fusce fermentum odio nec arcu. Vivamus euismod mauris. In ut quam vitae odio \
+lacinia tincidunt. Praesent ut ligula non mi varius sagittis. Cras sagittis. \
+Praesent ac sem eget est egestas volutpat. Vivamus consectetuer hendrerit \
+lacus. Cras non dolor. Vivamus in erat ut urna cursus vestibulum. Fusce \
+commodo aliquam arcu. Nam commodo suscipit quam. Quisque id odio. Praesent \
+venenatis metus at tortor pulvinar varius. Lorem ipsum dolor sit amet, \
+consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. \
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur \
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium \
+quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, \
+aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, \
+venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer \
+tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate \
+eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend \
+ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. \
+Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean \
+imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies \
+nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum \
+rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam \
+quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec \
+odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis \
+faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. \
+Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. \
+Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis \
+gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus \
+quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in \
+dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum \
+primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui \
+quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, \
+suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices \
+mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. \
+Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy \
+metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et \
+nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, \
+imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus \
+nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc \
+nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. \
+Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, \
+leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis \
+vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. \
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere \
+cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod \
+orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum \
+elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. \
+Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. \
+Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue \
+blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, \
+sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse \
+pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec \
+pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus \
+orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius \
+tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. \
+Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et \
+netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, \
+vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada \
+pretium. Pellentesque auctor neque nec urna. Proin sapien ipsum, porta a, \
+auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque \
+habitant morbi tristique senectus et netus et malesuada fames ac turpis \
+egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. \
+Phasellus a est. Phasellus magna. In hac habitasse platea dictumst. Curabitur \
+at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla \
+tristique. Morbi mattis ullamcorper velit. Phasellus gravida semper nisi. \
+Nullam vel sem. Pellentesque libero tortor, tincidunt et, tincidunt eget, \
+semper nec, quam. Sed hendrerit. Morbi ac felis. Nunc egestas, augue at \
+pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis \
+pede. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, \
+eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra et, \
+tempor et, pretium in, sapien. Donec venenatis vulputate lorem. Morbi nec \
+metus. Phasellus blandit leo ut odio. Maecenas ullamcorper, dui et placerat \
+feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Sed \
+magna purus, fermentum eu, tincidunt eu, varius ut, felis. In auctor lobortis \
+lacus. Quisque libero metus, condimentum nec, tempor a, commodo mollis, \
+magna. Vestibulum ullamcorper mauris at ligula. Fusce fermentum. Nullam \
+cursus lacinia erat. Praesent blandit laoreet nibh. Fusce convallis metus id \
+felis luctus adipiscing. Pellentesque egestas, neque sit amet convallis \
+pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Quisque id \
+mi. Ut tincidunt tincidunt erat. Etiam feugiat lorem non metus. Vestibulum \
+dapibus nunc ac augue. Curabitur vestibulum aliquam leo. Praesent egestas \
+neque eu enim. In hac habitasse platea dictumst. Fusce a quam. Etiam ut purus \
+mattis mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat \
+nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Sed \
+augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. \
+Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, \
+vitae euismod ligula urna in dolor. Mauris sollicitudin fermentum libero. \
+Praesent nonummy mi in odio. Nunc interdum lacus sit amet orci. Vestibulum \
+rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque \
+ante vel mi. Morbi mollis tellus ac sapien. Phasellus volutpat, metus eget \
+egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. \
+Fusce vel dui. Sed in libero ut nibh placerat accumsan. Proin faucibus arcu \
+quis ante. In consectetuer turpis ut velit. Nulla sit amet est. Praesent \
+metus tellus, elementum eu, semper a, adipiscing nec, purus. Cras risus \
+ipsum, faucibus ut, ullamcorper id, varius ac, leo. Suspendisse feugiat. \
+Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. \
+Praesent nec nisl a purus blandit viverra. Praesent ac massa at ligula \
+laoreet iaculis. Nulla neque dolor, sagittis eget, iaculis quis, molestie \
+non, velit. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, \
+ligula. Fusce pharetra convallis urna. Quisque ut nisi. Donec mi odio, \
+faucibus at, scelerisque quis, convallis in, nisi. Suspendisse non nisl sit \
+amet velit hendrerit rutrum. Ut leo. Ut a nisl id ante tempus hendrerit. \
+Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed \
+gravida augue augue mollis justo. Suspendisse eu ligula. Nulla facilisi. \
+Donec id justo. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl \
+dignissim dolor, a pretium mi sem ut ipsum. Curabitur suscipit suscipit \
+tellus. Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id \
+nisl quis enim dignissim sagittis. Etiam sollicitudin, ipsum eu pulvinar \
+rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. \
+Proin magna. Duis vel nibh at velit scelerisque suscipit. Curabitur turpis. \
+Vestibulum suscipit nulla quis orci. Fusce ac felis sit amet ligula pharetra \
+condimentum. Maecenas egestas arcu quis ligula mattis placerat. Duis lobortis \
+massa imperdiet quam. Suspendisse potenti. Pellentesque commodo eros a enim. \
+Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. \
+Sed libero. Aliquam erat volutpat. Etiam vitae tortor. Morbi vestibulum \
+volutpat enim. Aliquam eu nunc. Nunc sed turpis. Sed mollis, eros et ultrices \
+tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Nulla \
+porta dolor. Class aptent taciti sociosqu ad litora torquent per conubia \
+nostra, per inceptos hymenaeos. Pellentesque dapibus hendrerit tortor. \
+Praesent egestas tristique nibh. Sed a libero. Cras varius. Donec vitae orci \
+sed dolor rutrum auctor. Fusce egestas elit eget lorem. Suspendisse nisl \
+elit, rhoncus eget, elementum ac, condimentum eget, diam. Nam at tortor in \
+tellus interdum sagittis. Aliquam lobortis. Donec orci lectus, aliquam ut, \
+faucibus non, euismod id, nulla. Curabitur blandit mollis lacus. Nam \
+adipiscing. Vestibulum eu odio. Vivamus laoreet. Nullam tincidunt adipiscing \
+enim. Phasellus tempus. Proin viverra, ligula sit amet ultrices semper, \
+ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Fusce neque. \
+Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis \
+tellus, vitae iaculis lacus elit id tortor. Vivamus aliquet elit ac nisl. \
+Fusce fermentum odio nec arcu. Vivamus euismod mauris. In ut quam vitae odio \
+lacinia tincidunt. Praesent ut ligula non mi varius sagittis. Cras sagittis. \
+Praesent ac sem eget est egestas volutpat. Vivamus consectetuer hendrerit \
+lacus. Cras non dolor. Vivamus in erat ut urna cursus vestibulum. Fusce \
+commodo aliquam arcu. Nam commodo suscipit quam. Quisque id odio. Praesent \
+venenatis metus at tortor pulvinar varius. Lorem ipsum dolor sit amet, \
+consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. \
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur \
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium \
+quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, \
+aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, \
+venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer \
+tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate \
+eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend \
+ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. \
+Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean \
+imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies \
+nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum \
+rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam \
+quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec \
+odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis \
+faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. \
+Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. \
+Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis \
+gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus \
+quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in \
+dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum \
+primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui \
+quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, \
+suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices \
+mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. \
+Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy \
+metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et \
+nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, \
+imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus \
+nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc \
+nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. \
+Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, \
+leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis \
+vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. \
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere \
+cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod \
+orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum \
+elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. \
+Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. \
+Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue \
+blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, \
+sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse \
+pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec \
+pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus \
+orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius \
+tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. \
+Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et \
+netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, \
+vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada \
+pretium. Pellentesque auctor neque nec urna. Proin sapien ipsum, porta a, \
+auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque \
+habitant morbi tristique senectus et netus et malesuada fames ac turpis \
+egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. \
+Phasellus a est. Phasellus magna. In hac habitasse platea dictumst. Curabitur \
+at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla \
+tristique. Morbi mattis ullamcorper velit. Phasellus gravida semper nisi. \
+Nullam vel sem. Pellentesque libero tortor, tincidunt et, tincidunt eget, \
+semper nec, quam. Sed hendrerit. Morbi ac felis. Nunc egestas, augue at \
+pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis \
+pede. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, \
+eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra et, \
+tempor et, pretium in, sapien. Donec venenatis vulputate lorem. Morbi nec \
+metus. Phasellus blandit leo ut odio. Maecenas ullamcorper, dui et placerat \
+feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Sed \
+magna purus, fermentum eu, tincidunt eu, varius ut, felis. In auctor lobortis \
+lacus. Quisque libero metus, condimentum nec, tempor a, commodo mollis, \
+magna. Vestibulum ullamcorper mauris at ligula. Fusce fermentum. Nullam \
+cursus lacinia erat. Praesent blandit laoreet nibh. Fusce convallis metus id \
+felis luctus adipiscing. Pellentesque egestas, neque sit amet convallis \
+pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Quisque id \
+mi. Ut tincidunt tincidunt erat. Etiam feugiat lorem non metus. Vestibulum \
+dapibus nunc ac augue. Curabitur vestibulum aliquam leo. Praesent egestas \
+neque eu enim. In hac habitasse platea dictumst. Fusce a quam. Etiam ut purus \
+mattis mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat \
+nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Sed \
+augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. \
+Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, \
+vitae euismod ligula urna in dolor. Mauris sollicitudin fermentum libero. \
+Praesent nonummy mi in odio. Nunc interdum lacus sit amet orci. Vestibulum \
+rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque \
+ante vel mi. Morbi mollis tellus ac sapien. Phasellus volutpat, metus eget \
+egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. \
+Fusce vel dui. Sed in libero ut nibh placerat accumsan. Proin faucibus arcu \
+quis ante. In consectetuer turpis ut velit. Nulla sit amet est. Praesent \
+metus tellus, elementum eu, semper a, adipiscing nec, purus. Cras risus \
+ipsum, faucibus ut, ullamcorper id, varius ac, leo. Suspendisse feugiat. \
+Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. \
+Praesent nec nisl a purus blandit viverra. Praesent ac massa at ligula \
+laoreet iaculis. Nulla neque dolor, sagittis eget, iaculis quis, molestie \
+non, velit. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, \
+ligula. Fusce pharetra convallis urna. Quisque ut nisi. Donec mi odio, \
+faucibus at, scelerisque quis, convallis in, nisi. Suspendisse non nisl sit \
+amet velit hendrerit rutrum. Ut leo. Ut a nisl id ante tempus hendrerit. \
+Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed \
+gravida augue augue mollis justo. Suspendisse eu ligula. Nulla facilisi. \
+Donec id justo. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl \
+dignissim dolor, a pretium mi sem ut ipsum. Curabitur suscipit suscipit \
+tellus. Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id \
+nisl quis enim dignissim sagittis. Etiam sollicitudin, ipsum eu pulvinar \
+rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. \
+Proin magna. Duis vel nibh at velit scelerisque suscipit. Curabitur turpis. \
+Vestibulum suscipit nulla quis orci. Fusce ac felis sit amet ligula pharetra \
+condimentum. Maecenas egestas arcu quis ligula mattis placerat. Duis lobortis \
+massa imperdiet quam. Suspendisse potenti. Pellentesque commodo eros a enim. \
+Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. \
+Sed libero. Aliquam erat volutpat. Etiam vitae tortor. Morbi vestibulum \
+volutpat enim. Aliquam eu nunc. Nunc sed turpis. Sed mollis, eros et ultrices \
+tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Nulla \
+porta dolor. Class aptent taciti sociosqu ad litora torquent per conubia \
+nostra, per inceptos hymenaeos. Pellentesque dapibus hendrerit tortor. \
+Praesent egestas tristique nibh. Sed a libero. Cras varius. Donec vitae orci \
+sed dolor rutrum auctor. Fusce egestas elit eget lorem. Suspendisse nisl \
+elit, rhoncus eget, elementum ac, condimentum eget, diam. Nam at tortor in \
+tellus interdum sagittis. Aliquam lobortis. Donec orci lectus, aliquam ut, \
+faucibus non, euismod id, nulla. Curabitur blandit mollis lacus. Nam \
+adipiscing. Vestibulum eu odio. Vivamus laoreet. Nullam tincidunt adipiscing \
+enim. Phasellus tempus. Proin viverra, ligula sit amet ultrices semper, \
+ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Fusce neque. \
+Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis \
+tellus, vitae iaculis lacus elit id tortor. Vivamus aliquet elit ac nisl. \
+Fusce fermentum odio nec arcu. Vivamus euismod mauris. In ut quam vitae odio \
+lacinia tincidunt. Praesent ut ligula non mi varius sagittis. Cras sagittis. \
+Praesent ac sem eget est egestas volutpat. Vivamus consectetuer hendrerit \
+lacus. Cras non dolor. Vivamus in erat ut urna cursus vestibulum. Fusce \
+commodo aliquam arcu. Nam commodo suscipit quam. Quisque id odio. Praesent \
+venenatis metus at tortor pulvinar varius. Lorem ipsum dolor sit amet, \
+consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. \
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur \
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium \
+quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, \
+aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, \
+venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer \
+tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate \
+eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend \
+ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. \
+Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean \
+imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies \
+nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum \
+rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam \
+quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec \
+odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis \
+faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. \
+Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. \
+Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis \
+gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus \
+quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in \
+dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum \
+primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui \
+quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, \
+suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices \
+mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. \
+Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy \
+metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et \
+nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, \
+imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus \
+nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc \
+nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. \
+Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, \
+leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis \
+vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. \
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere \
+cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod \
+orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum \
+elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. \
+Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. \
+Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue \
+blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, \
+sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse \
+pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec \
+pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus \
+orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius \
+tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. \
+Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et \
+netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, \
+vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada \
+pretium. Pellentesque auctor neque nec urna. Proin sapien ipsum, porta a, \
+auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque \
+habitant morbi tristique senectus et netus et malesuada fames ac turpis \
+egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. \
+Phasellus a est. Phasellus magna. In hac habitasse platea dictumst. Curabitur \
+at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla \
+tristique. Morbi mattis ullamcorper velit. Phasellus gravida semper nisi. \
+Nullam vel sem. Pellentesque libero tortor, tincidunt et, tincidunt eget, \
+semper nec, quam. Sed hendrerit. Morbi ac felis. Nunc egestas, augue at \
+pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis \
+pede. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, \
+eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra et, \
+tempor et, pretium in, sapien. Donec venenatis vulputate lorem. Morbi nec \
+metus. Phasellus blandit leo ut odio. Maecenas ullamcorper, dui et placerat \
+feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Sed \
+magna purus, fermentum eu, tincidunt eu, varius ut, felis. In auctor lobortis \
+lacus. Quisque libero metus, condimentum nec, tempor a, commodo mollis, \
+magna. Vestibulum ullamcorper mauris at ligula. Fusce fermentum. Nullam \
+cursus lacinia erat. Praesent blandit laoreet nibh. Fusce convallis metus id \
+felis luctus adipiscing. Pellentesque egestas, neque sit amet convallis \
+pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Quisque id \
+mi. Ut tincidunt tincidunt erat. Etiam feugiat lorem non metus. Vestibulum \
+dapibus nunc ac augue. Curabitur vestibulum aliquam leo. Praesent egestas \
+neque eu enim. In hac habitasse platea dictumst. Fusce a quam. Etiam ut purus \
+mattis mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat \
+nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Sed \
+augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. \
+Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, \
+vitae euismod ligula urna in dolor. Mauris sollicitudin fermentum libero. \
+Praesent nonummy mi in odio. Nunc interdum lacus sit amet orci. Vestibulum \
+rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque \
+ante vel mi. Morbi mollis tellus ac sapien. Phasellus volutpat, metus eget \
+egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. \
+Fusce vel dui. Sed in libero ut nibh placerat accumsan. Proin faucibus arcu \
+quis ante. In consectetuer turpis ut velit. Nulla sit amet est. Praesent \
+metus tellus, elementum eu, semper a, adipiscing nec, purus. Cras risus \
+ipsum, faucibus ut, ullamcorper id, varius ac, leo. Suspendisse feugiat. \
+Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. \
+Praesent nec nisl a purus blandit viverra. Praesent ac massa at ligula \
+laoreet iaculis. Nulla neque dolor, sagittis eget, iaculis quis, molestie \
+non, velit. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, \
+ligula. Fusce pharetra convallis urna. Quisque ut nisi. Donec mi odio, \
+faucibus at, scelerisque quis, convallis in, nisi. Suspendisse non nisl sit \
+amet velit hendrerit rutrum. Ut leo. Ut a nisl id ante tempus hendrerit. \
+Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed \
+gravida augue augue mollis justo. Suspendisse eu ligula. Nulla facilisi. \
+Donec id justo. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl \
+dignissim dolor, a pretium mi sem ut ipsum. Curabitur suscipit suscipit \
+tellus. Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id \
+nisl quis enim dignissim sagittis. Etiam sollicitudin, ipsum eu pulvinar \
+rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. \
+Proin magna. Duis vel nibh at velit scelerisque suscipit. Curabitur turpis. \
+Vestibulum suscipit nulla quis orci. Fusce ac felis sit amet ligula pharetra \
+condimentum. Maecenas egestas arcu quis ligula mattis placerat. Duis lobortis \
+massa imperdiet quam. Suspendisse potenti. Pellentesque commodo eros a enim. \
+Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. \
+Sed libero. Aliquam erat volutpat. Etiam vitae tortor. Morbi vestibulum \
+volutpat enim. Aliquam eu nunc. Nunc sed turpis. Sed mollis, eros et ultrices \
+tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Nulla \
+porta dolor. Class aptent taciti sociosqu ad litora torquent per conubia \
+nostra, per inceptos hymenaeos. Pellentesque dapibus hendrerit tortor. \
+Praesent egestas tristique nibh. Sed a libero. Cras varius. Donec vitae orci \
+sed dolor rutrum auctor. Fusce egestas elit eget lorem. Suspendisse nisl \
+elit, rhoncus eget, elementum ac, condimentum eget, diam. Nam at tortor in \
+tellus interdum sagittis. Aliquam lobortis. Donec orci lectus, aliquam ut, \
+faucibus non, euismod id, nulla. Curabitur blandit mollis lacus. Nam \
+adipiscing. Vestibulum eu odio. Vivamus laoreet. Nullam tincidunt adipiscing \
+enim. Phasellus tempus. Proin viverra, ligula sit amet ultrices semper, \
+ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Fusce neque. \
+Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis \
+tellus, vitae iaculis lacus elit id tortor. Vivamus aliquet elit ac nisl. \
+Fusce fermentum odio nec arcu. Vivamus euismod mauris. In ut quam vitae odio \
+lacinia tincidunt. Praesent ut ligula non mi varius sagittis. Cras sagittis. \
+Praesent ac sem eget est egestas volutpat. Vivamus consectetuer hendrerit \
+lacus. Cras non dolor. Vivamus in erat ut urna cursus vestibulum. Fusce \
+commodo aliquam arcu. Nam commodo suscipit quam. Quisque id odio. Praesent \
+venenatis metus at tortor pulvinar varius. Lorem ipsum dolor sit amet, \
+consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. \
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur \
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium \
+quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, \
+aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, \
+venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer \
+tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate \
+eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend \
+ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. \
+Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean \
+imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies \
+nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum \
+rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam \
+quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec \
+odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis \
+faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. \
+Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. \
+Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis \
+gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus \
+quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in \
+dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum \
+primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui \
+quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, \
+suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices \
+mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. \
+Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy \
+metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et \
+nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, \
+imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus \
+nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc \
+nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. \
+Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, \
+leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis \
+vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. \
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere \
+cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod \
+orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum \
+elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. \
+Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. \
+Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue \
+blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, \
+sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse \
+pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec \
+pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus \
+orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius \
+tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. \
+Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et \
+netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, \
+vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada \
+pretium. Pellentesque auctor neque nec urna. Proin sapien ipsum, porta a, \
+auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque \
+habitant morbi tristique senectus et netus et malesuada fames ac turpis \
+egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. \
+Phasellus a est. Phasellus magna. In hac habitasse platea dictumst. Curabitur \
+at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla \
+tristique. Morbi mattis ullamcorper velit. Phasellus gravida semper nisi. \
+Nullam vel sem. Pellentesque libero tortor, tincidunt et, tincidunt eget, \
+semper nec, quam. Sed hendrerit. Morbi ac felis. Nunc egestas, augue at \
+pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis \
+pede. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, \
+eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra et, \
+tempor et, pretium in, sapien. Donec venenatis vulputate lorem. Morbi nec \
+metus. Phasellus blandit leo ut odio. Maecenas ullamcorper, dui et placerat \
+feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Sed \
+magna purus, fermentum eu, tincidunt eu, varius ut, felis. In auctor lobortis \
+lacus. Quisque libero metus, condimentum nec, tempor a, commodo mollis, \
+magna. Vestibulum ullamcorper mauris at ligula. Fusce fermentum. Nullam \
+cursus lacinia erat. Praesent blandit laoreet nibh. Fusce convallis metus id \
+felis luctus adipiscing. Pellentesque egestas, neque sit amet convallis \
+pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Quisque id \
+mi. Ut tincidunt tincidunt erat. Etiam feugiat lorem non metus. Vestibulum \
+dapibus nunc ac augue. Curabitur vestibulum aliquam leo. Praesent egestas \
+neque eu enim. In hac habitasse platea dictumst. Fusce a quam. Etiam ut purus \
+mattis mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat \
+nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Sed \
+augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. \
+Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, \
+vitae euismod ligula urna in dolor. Mauris sollicitudin fermentum libero. \
+Praesent nonummy mi in odio. Nunc interdum lacus sit amet orci. Vestibulum \
+rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque \
+ante vel mi. Morbi mollis tellus ac sapien. Phasellus volutpat, metus eget \
+egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. \
+Fusce vel dui. Sed in libero ut nibh placerat accumsan. Proin faucibus arcu \
+quis ante. In consectetuer turpis ut velit. Nulla sit amet est. Praesent \
+metus tellus, elementum eu, semper a, adipiscing nec, purus. Cras risus \
+ipsum, faucibus ut, ullamcorper id, varius ac, leo. Suspendisse feugiat. \
+Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. \
+Praesent nec nisl a purus blandit viverra. Praesent ac massa at ligula \
+laoreet iaculis. Nulla neque dolor, sagittis eget, iaculis quis, molestie \
+non, velit. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, \
+ligula. Fusce pharetra convallis urna. Quisque ut nisi. Donec mi odio, \
+faucibus at, scelerisque quis, convallis in, nisi. Suspendisse non nisl sit \
+amet velit hendrerit rutrum. Ut leo. Ut a nisl id ante tempus hendrerit. \
+Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed \
+gravida augue augue mollis justo. Suspendisse eu ligula. Nulla facilisi. \
+Donec id justo. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl \
+dignissim dolor, a pretium mi sem ut ipsum. Curabitur suscipit suscipit \
+tellus. Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id \
+nisl quis enim dignissim sagittis. Etiam sollicitudin, ipsum eu pulvinar \
+rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. \
+Proin magna. Duis vel nibh at velit scelerisque suscipit. Curabitur turpis. \
+Vestibulum suscipit nulla quis orci. Fusce ac felis sit amet ligula pharetra \
+condimentum. Maecenas egestas arcu quis ligula mattis placerat. Duis lobortis \
+massa imperdiet quam. Suspendisse potenti. Pellentesque commodo eros a enim. \
+Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. \
+Sed libero. Aliquam erat volutpat. Etiam vitae tortor. Morbi vestibulum \
+volutpat enim. Aliquam eu nunc. Nunc sed turpis. Sed mollis, eros et ultrices \
+tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Nulla \
+porta dolor. Class aptent taciti sociosqu ad litora torquent per conubia \
+nostra, per inceptos hymenaeos. Pellentesque dapibus hendrerit tortor. \
+Praesent egestas tristique nibh. Sed a libero. Cras varius. Donec vitae orci \
+sed dolor rutrum auctor. Fusce egestas elit eget lorem. Suspendisse nisl \
+elit, rhoncus eget, elementum ac, condimentum eget, diam. Nam at tortor in \
+tellus interdum sagittis. Aliquam lobortis. Donec orci lectus, aliquam ut, \
+faucibus non, euismod id, nulla. Curabitur blandit mollis lacus. Nam \
+adipiscing. Vestibulum eu odio. Vivamus laoreet. Nullam tincidunt adipiscing \
+enim. Phasellus tempus. Proin viverra, ligula sit amet ultrices semper, \
+ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Fusce neque. \
+Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis \
+tellus, vitae iaculis lacus elit id tortor. Vivamus aliquet elit ac nisl. \
+Fusce fermentum odio nec arcu. Vivamus euismod mauris. In ut quam vitae odio \
+lacinia tincidunt. Praesent ut ligula non mi varius sagittis. Cras sagittis. \
+Praesent ac sem eget est egestas volutpat. Vivamus consectetuer hendrerit \
+lacus. Cras non dolor. Vivamus in erat ut urna cursus vestibulum. Fusce \
+commodo aliquam arcu. Nam commodo suscipit quam. Quisque id odio. Praesent \
+venenatis metus at tortor pulvinar varius. Lorem ipsum dolor sit amet, \
+consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. \
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur \
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium \
+quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, \
+aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, \
+venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer \
+tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate \
+eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend \
+ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. \
+Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean \
+imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies \
+nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum \
+rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam \
+quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec \
+odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis \
+faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. \
+Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. \
+Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis \
+gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus \
+quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in \
+dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum \
+primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui \
+quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, \
+suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices \
+mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. \
+Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy \
+metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et \
+nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, \
+imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus \
+nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc \
+nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. \
+Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, \
+leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis \
+vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. \
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere \
+cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod \
+orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum \
+elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. \
+Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. \
+Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue \
+blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, \
+sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse \
+pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec \
+pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus \
+orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius \
+tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. \
+Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et \
+netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, \
+vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada \
+pretium. Pellentesque auctor neque nec urna. Proin sapien ipsum, porta a, \
+auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque \
+habitant morbi tristique senectus et netus et malesuada fames ac turpis \
+egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. \
+Phasellus a est. Phasellus magna. In hac habitasse platea dictumst. Curabitur \
+at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla \
+tristique. Morbi mattis ullamcorper velit. Phasellus gravida semper nisi. \
+Nullam vel sem. Pellentesque libero tortor, tincidunt et, tincidunt eget, \
+semper nec, quam. Sed hendrerit. Morbi ac felis. Nunc egestas, augue at \
+pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis \
+pede. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, \
+eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra et, \
+tempor et, pretium in, sapien. Donec venenatis vulputate lorem. Morbi nec \
+metus. Phasellus blandit leo ut odio. Maecenas ullamcorper, dui et placerat \
+feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Sed \
+magna purus, fermentum eu, tincidunt eu, varius ut, felis. In auctor lobortis \
+lacus. Quisque libero metus, condimentum nec, tempor a, commodo mollis, \
+magna. Vestibulum ullamcorper mauris at ligula. Fusce fermentum. Nullam \
+cursus lacinia erat. Praesent blandit laoreet nibh. Fusce convallis metus id \
+felis luctus adipiscing. Pellentesque egestas, neque sit amet convallis \
+pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Quisque id \
+mi. Ut tincidunt tincidunt erat. Etiam feugiat lorem non metus. Vestibulum \
+dapibus nunc ac augue. Curabitur vestibulum aliquam leo. Praesent egestas \
+neque eu enim. In hac habitasse platea dictumst. Fusce a quam. Etiam ut purus \
+mattis mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat \
+nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Sed \
+augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. \
+Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, \
+vitae euismod ligula urna in dolor. Mauris sollicitudin fermentum libero. \
+Praesent nonummy mi in odio. Nunc interdum lacus sit amet orci. Vestibulum \
+rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque \
+ante vel mi. Morbi mollis tellus ac sapien. Phasellus volutpat, metus eget \
+egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. \
+Fusce vel dui. Sed in libero ut nibh placerat accumsan. Proin faucibus arcu \
+quis ante. In consectetuer turpis ut velit. Nulla sit amet est. Praesent \
+metus tellus, elementum eu, semper a, adipiscing nec, purus. Cras risus \
+ipsum, faucibus ut, ullamcorper id, varius ac, leo. Suspendisse feugiat. \
+Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. \
+Praesent nec nisl a purus blandit viverra. Praesent ac massa at ligula \
+laoreet iaculis. Nulla neque dolor, sagittis eget, iaculis quis, molestie \
+non, velit. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, \
+ligula. Fusce pharetra convallis urna. Quisque ut nisi. Donec mi odio, \
+faucibus at, scelerisque quis, convallis in, nisi. Suspendisse non nisl sit \
+amet velit hendrerit rutrum. Ut leo. Ut a nisl id ante tempus hendrerit. \
+Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed \
+gravida augue augue mollis justo. Suspendisse eu ligula. Nulla facilisi. \
+Donec id justo. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl \
+dignissim dolor, a pretium mi sem ut ipsum. Curabitur suscipit suscipit \
+tellus. Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id \
+nisl quis enim dignissim sagittis. Etiam sollicitudin, ipsum eu pulvinar \
+rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. \
+Proin magna. Duis vel nibh at velit scelerisque suscipit. Curabitur turpis. \
+Vestibulum suscipit nulla quis orci. Fusce ac felis sit amet ligula pharetra \
+condimentum. Maecenas egestas arcu quis ligula mattis placerat. Duis lobortis \
+massa imperdiet quam. Suspendisse potenti. Pellentesque commodo eros a enim. \
+Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. \
+Sed libero. Aliquam erat volutpat. Etiam vitae tortor. Morbi vestibulum \
+volutpat enim. Aliquam eu nunc. Nunc sed turpis. Sed mollis, eros et ultrices \
+tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Nulla \
+porta dolor. Class aptent taciti sociosqu ad litora torquent per conubia \
+nostra, per inceptos hymenaeos. Pellentesque dapibus hendrerit tortor. \
+Praesent egestas tristique nibh. Sed a libero. Cras varius. Donec vitae orci \
+sed dolor rutrum auctor. Fusce egestas elit eget lorem. Suspendisse nisl \
+elit, rhoncus eget, elementum ac, condimentum eget, diam. Nam at tortor in \
+tellus interdum sagittis. Aliquam lobortis. Donec orci lectus, aliquam ut, \
+faucibus non, euismod id, nulla. Curabitur blandit mollis lacus. Nam \
+adipiscing. Vestibulum eu odio. Vivamus laoreet. Nullam tincidunt adipiscing \
+enim. Phasellus tempus. Proin viverra, ligula sit amet ultrices semper, \
+ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Fusce neque. \
+Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis \
+tellus, vitae iaculis lacus elit id tortor. Vivamus aliquet elit ac nisl. \
+Fusce fermentum odio nec arcu. Vivamus euismod mauris. In ut quam vitae odio \
+lacinia tincidunt. Praesent ut ligula non mi varius sagittis. Cras sagittis. \
+Praesent ac sem eget est egestas volutpat. Vivamus consectetuer hendrerit \
+lacus. Cras non dolor. Vivamus in erat ut urna cursus vestibulum. Fusce \
+commodo aliquam arcu. Nam commodo suscipit quam. Quisque id odio. Praesent \
+venenatis metus at tortor pulvinar varius. Lorem ipsum dolor sit amet, \
+consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. \
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur \
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium \
+quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, \
+aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, \
+venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer \
+tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate \
+eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend \
+ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. \
+Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean \
+imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies \
+nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum \
+rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam \
+quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec \
+odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis \
+faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. \
+Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. \
+Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis \
+gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus \
+quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in \
+dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum \
+primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui \
+quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, \
+suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices \
+mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. \
+Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy \
+metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et \
+nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, \
+imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus \
+nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc \
+nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. \
+Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, \
+leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis \
+vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. \
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere \
+cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod \
+orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum \
+elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. \
+Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. \
+Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue \
+blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, \
+sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse \
+pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec \
+pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus \
+orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius \
+tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. \
+Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et \
+netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, \
+vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada \
+pretium. Pellentesque auctor neque nec urna. Proin sapien ipsum, porta a, \
+auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque \
+habitant morbi tristique senectus et netus et malesuada fames ac turpis \
+egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. \
+Phasellus a est. Phasellus magna. In hac habitasse platea dictumst. Curabitur \
+at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla \
+tristique. Morbi mattis ullamcorper velit. Phasellus gravida semper nisi. \
+Nullam vel sem. Pellentesque libero tortor, tincidunt et, tincidunt eget, \
+semper nec, quam. Sed hendrerit. Morbi ac felis. Nunc egestas, augue at \
+pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis \
+pede. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, \
+eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra et, \
+tempor et, pretium in, sapien. Donec venenatis vulputate lorem. Morbi nec \
+metus. Phasellus blandit leo ut odio. Maecenas ullamcorper, dui et placerat \
+feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Sed \
+magna purus, fermentum eu, tincidunt eu, varius ut, felis. In auctor lobortis \
+lacus. Quisque libero metus, condimentum nec, tempor a, commodo mollis, \
+magna. Vestibulum ullamcorper mauris at ligula. Fusce fermentum. Nullam \
+cursus lacinia erat. Praesent blandit laoreet nibh. Fusce convallis metus id \
+felis luctus adipiscing. Pellentesque egestas, neque sit amet convallis \
+pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Quisque id \
+mi. Ut tincidunt tincidunt erat. Etiam feugiat lorem non metus. Vestibulum \
+dapibus nunc ac augue. Curabitur vestibulum aliquam leo. Praesent egestas \
+neque eu enim. In hac habitasse platea dictumst. Fusce a quam. Etiam ut purus \
+mattis mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat \
+nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Sed \
+augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. \
+Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, \
+vitae euismod ligula urna in dolor. Mauris sollicitudin fermentum libero. \
+Praesent nonummy mi in odio. Nunc interdum lacus sit amet orci. Vestibulum \
+rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque \
+ante vel mi. Morbi mollis tellus ac sapien. Phasellus volutpat, metus eget \
+egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. \
+Fusce vel dui. Sed in libero ut nibh placerat accumsan. Proin faucibus arcu \
+quis ante. In consectetuer turpis ut velit. Nulla sit amet est. Praesent \
+metus tellus, elementum eu, semper a, adipiscing nec, purus. Cras risus \
+ipsum, faucibus ut, ullamcorper id, varius ac, leo. Suspendisse feugiat. \
+Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. \
+Praesent nec nisl a purus blandit viverra. Praesent ac massa at ligula \
+laoreet iaculis. Nulla neque dolor, sagittis eget, iaculis quis, molestie \
+non, velit. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, \
+ligula. Fusce pharetra convallis urna. Quisque ut nisi. Donec mi odio, \
+faucibus at, scelerisque quis, convallis in, nisi. Suspendisse non nisl sit \
+amet velit hendrerit rutrum. Ut leo. Ut a nisl id ante tempus hendrerit. \
+Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed \
+gravida augue augue mollis justo. Suspendisse eu ligula. Nulla facilisi. \
+Donec id justo. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl \
+dignissim dolor, a pretium mi sem ut ipsum. Curabitur suscipit suscipit \
+tellus. Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id \
+nisl quis enim dignissim sagittis. Etiam sollicitudin, ipsum eu pulvinar \
+rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. \
+Proin magna. Duis vel nibh at velit scelerisque suscipit. Curabitur turpis. \
+Vestibulum suscipit nulla quis orci. Fusce ac felis sit amet ligula pharetra \
+condimentum. Maecenas egestas arcu quis ligula mattis placerat. Duis lobortis \
+massa imperdiet quam. Suspendisse potenti. Pellentesque commodo eros a enim. \
+Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. \
+Sed libero. Aliquam erat volutpat. Etiam vitae tortor. Morbi vestibulum \
+volutpat enim. Aliquam eu nunc. Nunc sed turpis. Sed mollis, eros et ultrices \
+tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Nulla \
+porta dolor. Class aptent taciti sociosqu ad litora torquent per conubia \
+nostra, per inceptos hymenaeos. Pellentesque dapibus hendrerit tortor. \
+Praesent egestas tristique nibh. Sed a libero. Cras varius. Donec vitae orci \
+sed dolor rutrum auctor. Fusce egestas elit eget lorem. Suspendisse nisl \
+elit, rhoncus eget, elementum ac, condimentum eget, diam. Nam at tortor in \
+tellus interdum sagittis. Aliquam lobortis. Donec orci lectus, aliquam ut, \
+faucibus non, euismod id, nulla. Curabitur blandit mollis lacus. Nam \
+adipiscing. Vestibulum eu odio. Vivamus laoreet. Nullam tincidunt adipiscing \
+enim. Phasellus tempus. Proin viverra, ligula sit amet ultrices semper, \
+ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Fusce neque. \
+Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis \
+tellus, vitae iaculis lacus elit id tortor. Vivamus aliquet elit ac nisl. \
+Fusce fermentum odio nec arcu. Vivamus euismod mauris. In ut quam vitae odio \
+lacinia tincidunt. Praesent ut ligula non mi varius sagittis. Cras sagittis. \
+Praesent ac sem eget est egestas volutpat. Vivamus consectetuer hendrerit \
+lacus. Cras non dolor. Vivamus in erat ut urna cursus vestibulum. Fusce \
+commodo aliquam arcu. Nam commodo suscipit quam. Quisque id odio. Praesent \
+venenatis metus at tortor pulvinar varius.Lorem ipsum dolor sit amet, \
+consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. \
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur \
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium \
+quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, \
+aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, \
+venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer \
+tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate \
+eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend \
+ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. \
+Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean \
+imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies \
+nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum \
+rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam \
+quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec \
+odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis \
+faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. \
+Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. \
+Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis \
+gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus \
+quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in \
+dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum \
+primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui \
+quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, \
+suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices \
+mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. \
+Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy \
+metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et \
+nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, \
+imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus \
+nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc \
+nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. \
+Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, \
+leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis \
+vitae tortor. Donec posuere vulputate arcu.\>\""}], ";"}]], "Input",
+ CellChangeTimes->{{3.6505438871603785`*^9, 3.650543909437594*^9}}]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["multiply string", "Section",
+ CellChangeTimes->{{3.6505440391466846`*^9, 3.650544044269294*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"string0", " ", "=", " ", "textString"}], ";"}]], "Input",
+ CellChangeTimes->{{3.6505441300446186`*^9, 3.6505441419580283`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Timing", "[", 
+  RowBox[{"For", "[", 
+   RowBox[{
+    RowBox[{"i", "=", "1"}], ",", 
+    RowBox[{"i", "<", "700"}], ",", 
+    RowBox[{"i", "++"}], ",", 
+    RowBox[{"string0", "=", 
+     RowBox[{"StringJoin", "[", 
+      RowBox[{"string0", ",", "textString"}], "]"}]}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6505440474715557`*^9, 3.650544116927329*^9}, {
+   3.6505441505571156`*^9, 3.65054419053084*^9}, {3.6505442766349096`*^9, 
+   3.6505443009631157`*^9}, {3.6505443378892097`*^9, 3.650544359148227*^9}, {
+   3.650544449402717*^9, 3.6505444641559477`*^9}, {3.6505445942839203`*^9, 
+   3.6505446209205437`*^9}, {3.6505446543253937`*^9, 
+   3.6505446554361787`*^9}, {3.6505447707845974`*^9, 3.650544834908747*^9}, {
+   3.65054488713264*^9, 3.650544906992712*^9}, {3.6505449442322664`*^9, 
+   3.65054495374811*^9}, {3.652976752740239*^9, 3.6529767788711715`*^9}, {
+   3.6529796709953437`*^9, 3.6529796794342933`*^9}, {3.6529800069666657`*^9, 
+   3.652980007044721*^9}, {3.6531501001985626`*^9, 3.653150100348653*^9}, 
+   3.6531509854837704`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"8.109375`", ",", "Null"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.6505449789799128`*^9, 3.650546316086339*^9, 3.6513704448814106`*^9, 
+   3.651370518856431*^9, {3.6529767686182265`*^9, 3.652976779960769*^9}, {
+   3.6529768278571577`*^9, 3.6529768330417767`*^9}, 3.652977513578333*^9, 
+   3.652977925918172*^9, {3.6529787545406017`*^9, 3.652978760966037*^9}, {
+   3.6529792350105076`*^9, 3.652979246101942*^9}, {3.652979322014038*^9, 
+   3.652979343533959*^9}, {3.6529793881963425`*^9, 3.6529794149683104`*^9}, {
+   3.652979480518526*^9, 3.652979493880415*^9}, 3.6529796012364817`*^9, {
+   3.652979647857167*^9, 3.6529796824138393`*^9}, 3.652979947227622*^9, 
+   3.6529799833339643`*^9, 3.652980019976847*^9, 3.6531500713114376`*^9, 
+   3.653150114490305*^9, 3.653150723940359*^9, 3.6531507799866896`*^9, 
+   3.653150832343297*^9, 3.6531509993361077`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringLength", "[", "string0", "]"}]], "Input",
+ CellChangeTimes->{{3.650544919368453*^9, 3.650544937387412*^9}, {
+  3.6529768222037497`*^9, 3.6529768246839113`*^9}}],
+
+Cell[BoxData["47778500"], "Output",
+ CellChangeTimes->{
+  3.650544979008933*^9, 3.650546316125367*^9, 3.651370444952283*^9, {
+   3.652976770217005*^9, 3.6529767799707766`*^9}, {3.652976809972286*^9, 
+   3.652976833069826*^9}, 3.6529775136063523`*^9, 3.652977925944192*^9, {
+   3.652978754567622*^9, 3.652978760992071*^9}, {3.652979235038509*^9, 
+   3.652979246128944*^9}, {3.652979322041041*^9, 3.652979343560978*^9}, {
+   3.6529793882233615`*^9, 3.65297941499533*^9}, {3.6529794805455446`*^9, 
+   3.6529794939074345`*^9}, 3.6529796012630005`*^9, {3.6529796478841867`*^9, 
+   3.6529796825098886`*^9}, 3.6529799473354545`*^9, 3.6529799834570503`*^9, 
+   3.653150071471551*^9, 3.65315011468044*^9, 3.6531507242489195`*^9, 
+   3.6531507801788273`*^9, 3.6531508325434217`*^9, 3.6531509995302444`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"string1", "=", 
+  "\"\<Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean \
+commodo ligula eget dolor. Aenean massa.\>\""}]], "Input",
+ CellChangeTimes->{{3.651370413511483*^9, 3.6513704205870047`*^9}, 
+   3.651370454258174*^9}],
+
+Cell[BoxData["\<\"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. \
+Aenean commodo ligula eget dolor. Aenean massa.\"\>"], "Output",
+ CellChangeTimes->{{3.6513704451496944`*^9, 3.6513704553206806`*^9}, {
+   3.652976770227039*^9, 3.652976779979785*^9}, {3.652976827897087*^9, 
+   3.652976833079809*^9}, 3.6529775136153584`*^9, 3.6529779259531837`*^9, {
+   3.6529787545741253`*^9, 3.652978760998059*^9}, {3.6529792350465345`*^9, 
+   3.6529792461349487`*^9}, {3.6529793220470433`*^9, 
+   3.6529793435669804`*^9}, {3.6529793882293825`*^9, 
+   3.6529794150027747`*^9}, {3.652979480552568*^9, 3.6529794939134393`*^9}, 
+   3.6529796012695045`*^9, {3.652979647890519*^9, 3.652979682515894*^9}, 
+   3.6529799473409758`*^9, 3.6529799834620533`*^9, 3.653150071478732*^9, 
+   3.6531501146864614`*^9, 3.6531507242549553`*^9, 3.653150780184845*^9, 
+   3.6531508325504293`*^9, 3.653150999536248*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["string position", "Section",
+ CellChangeTimes->{{3.650543944837476*^9, 3.650543962680357*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AbsoluteTiming", "[", 
+  RowBox[{
+   RowBox[{"StringPosition", "[", 
+    RowBox[{
+    "string0", ",", 
+     "\"\<Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean \
+commodo ligula eget dolor. Aenean massa.\>\""}], "]"}], ";"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6505439656965017`*^9, 3.6505440184460516`*^9}, {
+   3.6505443049248953`*^9, 3.6505443061807947`*^9}, {3.6505444105456667`*^9, 
+   3.6505444108318815`*^9}, {3.650544530502801*^9, 3.650544579390414*^9}, {
+   3.6505448055078883`*^9, 3.65054481952791*^9}, 3.6505462873050385`*^9, {
+   3.6505463376578712`*^9, 3.6505463722412405`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"2.6729892295619337`", ",", "Null"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.650544821872535*^9, 3.650544895219515*^9, 3.6505449325928154`*^9, 
+   3.650544980117716*^9, {3.650546317650443*^9, 3.6505463762630796`*^9}, 
+   3.6513704489053574`*^9, {3.6529767706022816`*^9, 3.6529767803551245`*^9}, {
+   3.652976828285363*^9, 3.6529768334630976`*^9}, 3.6529775139936247`*^9, 
+   3.6529779263294506`*^9, {3.652978754958794*^9, 3.652978761366335*^9}, {
+   3.652979235432352*^9, 3.6529792465186996`*^9}, {3.652979322429313*^9, 
+   3.6529793439514933`*^9}, {3.652979388606939*^9, 3.652979415393086*^9}, {
+   3.6529794809298334`*^9, 3.652979494291706*^9}, 3.6529796016482725`*^9, {
+   3.6529796482788224`*^9, 3.652979683633683*^9}, 3.6529799484752617`*^9, 
+   3.6529799845848465`*^9, 3.6531500734246216`*^9, 3.653150117417156*^9, 
+   3.653150726985887*^9, 3.653150782907756*^9, 3.653150835226199*^9, 
+   3.6531510022135963`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["parallel string position", "Section",
+ CellChangeTimes->{{3.651370063041579*^9, 3.651370073195615*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["trash", "Subsubsection",
+ CellChangeTimes->{{3.652976186204852*^9, 3.6529761894972773`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{"Print", "[", "strL", "]"}], ";", "\[IndentingNewLine]", 
+   RowBox[{"DistributeDefinitions", "[", 
+    RowBox[{"n", ",", "x"}], "]"}], ";", "\[IndentingNewLine]", 
+   RowBox[{"borders", "=", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"Floor", "[", 
+       RowBox[{"i", "*", 
+        RowBox[{"strL", "/", "$KernelCount"}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "0", ",", "4"}], "}"}]}], "]"}]}], ";", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"For", "[", 
+     RowBox[{
+      RowBox[{"i", "=", "2"}], ",", 
+      RowBox[{"i", "<", 
+       RowBox[{
+        RowBox[{"Length", "[", "borders", "]"}], "-", "1"}]}], ",", 
+      RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+        "borders", "\[LeftDoubleBracket]", "i", "\[RightDoubleBracket]"}], "+=", 
+        RowBox[{"substrL", "-", "1"}]}], ";"}]}], "]"}], 
+    "\[IndentingNewLine]", 
+    RowBox[{"Print", "[", "borders", "]"}]}], ";", "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{"Map", "[", 
+     RowBox[{"StringLength", ",", 
+      RowBox[{"StringPartition", "[", 
+       RowBox[{"n", ",", 
+        RowBox[{"Floor", "[", 
+         RowBox[{"strL", "/", "$KernelCount"}], "]"}]}], "]"}]}], "]"}], 
+    "]"}], ";"}], "*)"}]], "Input",
+ CellChangeTimes->{{3.652976465134063*^9, 3.652976466614991*^9}}]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["works", "Subsubsection",
+ CellChangeTimes->{{3.652976201366832*^9, 3.6529762102746058`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"DivideString", "[", 
+   RowBox[{"n_String", ",", "m_String"}], "]"}], ":=", 
+  RowBox[{"Block", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"l", "=", 
+       RowBox[{"StringLength", "[", "n", "]"}]}], ",", 
+      RowBox[{"k", "=", 
+       RowBox[{"StringLength", "[", "m", "]"}]}], ",", 
+      RowBox[{"kernels", "=", 
+       RowBox[{"First", "[", 
+        RowBox[{"ParallelEvaluate", "[", "$KernelCount", "]"}], "]"}]}], ",", 
+      "a", ",", "b"}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"a", "=", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Floor", "[", 
+          RowBox[{"i", "*", 
+           RowBox[{"l", "/", "kernels"}]}], "]"}], "+", "1"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "0", ",", 
+          RowBox[{"kernels", "-", "1"}]}], "}"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"b", "=", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"Floor", "[", 
+         RowBox[{
+          RowBox[{"i", "*", 
+           RowBox[{"l", "/", "kernels"}]}], "+", "k", "-", "1"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "1", ",", 
+          RowBox[{"kernels", "-", "1"}]}], "}"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"AppendTo", "[", 
+      RowBox[{"b", ",", "l"}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"a", "\[LeftDoubleBracket]", "i", "\[RightDoubleBracket]"}], 
+         ",", 
+         RowBox[{
+         "b", "\[LeftDoubleBracket]", "i", "\[RightDoubleBracket]"}]}], "}"}],
+        ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "1", ",", 
+         RowBox[{"Length", "[", "a", "]"}]}], "}"}]}], "]"}]}]}], 
+   "\[IndentingNewLine]", "]"}]}]], "Input",
+ CellChangeTimes->{{3.6529749990647573`*^9, 3.652975001592955*^9}, {
+  3.6529767252334313`*^9, 3.6529767344263105`*^9}, {3.6529768860501957`*^9, 
+  3.6529768917545853`*^9}, {3.6529789890101795`*^9, 3.6529790414047856`*^9}, {
+  3.6529791991391325`*^9, 3.652979233555461*^9}, {3.6529794109742317`*^9, 
+  3.6529794113735123`*^9}, {3.652979662352878*^9, 3.65297966257802*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DivideString", "[", 
+  RowBox[{"string0", ",", "string1"}], "]"}]], "Input",
+ CellChangeTimes->{{3.652976738432151*^9, 3.652976738545227*^9}, {
+  3.6529768634727125`*^9, 3.652976872789687*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"1", ",", "11944729"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"11944626", ",", "23889354"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"23889251", ",", "35833979"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"35833876", ",", "47778500"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.6529767706232967`*^9, 3.6529767803781404`*^9}, {
+   3.6529768283093815`*^9, 3.65297683348713*^9}, {3.652976873891718*^9, 
+   3.652976894340537*^9}, 3.6529775140496645`*^9, 3.6529779264479065`*^9, {
+   3.652978755650283*^9, 3.6529787614143543`*^9}, {3.65297899880888*^9, 
+   3.652979050873785*^9}, {3.6529792354814386`*^9, 3.6529792465732384`*^9}, 
+   3.652979291371966*^9, {3.6529793224813566`*^9, 3.6529793440029616`*^9}, {
+   3.6529793886669807`*^9, 3.6529794154541135`*^9}, {3.652979480988858*^9, 
+   3.6529794943529816`*^9}, 3.652979601708316*^9, {3.652979648341008*^9, 
+   3.6529796837497826`*^9}, 3.6529799492344007`*^9, 3.652979984706933*^9, 
+   3.6531500748516474`*^9, 3.653150117649302*^9, 3.653150727579317*^9, 
+   3.653150783471154*^9, 3.653150835441348*^9, 3.653151002437755*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"ParallelStringPosition", "[", 
+    RowBox[{"n_", ",", "x_"}], "]"}], ":=", 
+   RowBox[{"Block", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"borders", "=", 
+       RowBox[{"{", "}"}]}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"borders", "=", 
+       RowBox[{"DivideString", "[", 
+        RowBox[{"n", ",", "x"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"SetSharedVariable", "[", "n", "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"SetSharedVariable", "[", "borders", "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"SetSharedVariable", "[", "x", "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Apply", "[", 
+       RowBox[{"Plus", ",", 
+        RowBox[{"ParallelEvaluate", "[", "\[IndentingNewLine]", 
+         RowBox[{
+          RowBox[{"Length", "[", 
+           RowBox[{"StringPosition", "[", 
+            RowBox[{
+             RowBox[{"StringTake", "[", 
+              RowBox[{"n", ",", 
+               RowBox[{
+               "borders", "\[LeftDoubleBracket]", "$KernelID", 
+                "\[RightDoubleBracket]"}]}], "]"}], ",", "x"}], "]"}], "]"}], 
+          ",", 
+          RowBox[{"Range", "[", "$KernelCount", "]"}]}], "]"}]}], 
+       "\[IndentingNewLine]", "]"}]}]}], "\[IndentingNewLine]", "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.6513700969310656`*^9, 3.651370298447506*^9}, {
+   3.651370333261944*^9, 3.651370379606205*^9}, {3.6513705136959376`*^9, 
+   3.651370513805338*^9}, {3.6513705522320147`*^9, 3.6513705648182306`*^9}, {
+   3.6513706275846624`*^9, 3.6513706506643305`*^9}, {3.65137068949975*^9, 
+   3.6513706959491863`*^9}, {3.6513708538469152`*^9, 
+   3.6513710396156073`*^9}, {3.6513712055083847`*^9, 
+   3.6513712127084064`*^9}, {3.6513713503322153`*^9, 
+   3.6513713646446285`*^9}, {3.6513714070011034`*^9, 3.651371533491548*^9}, {
+   3.651371574018505*^9, 3.6513715823122573`*^9}, {3.651372532587119*^9, 
+   3.6513725908242435`*^9}, 3.6529761783644676`*^9, {3.6529764753305216`*^9, 
+   3.65297660835872*^9}, {3.6529769263432817`*^9, 3.652976938842864*^9}, {
+   3.6529769985096617`*^9, 3.6529770657957807`*^9}, {3.6529774121289296`*^9, 
+   3.652977421542699*^9}, {3.6529776210208855`*^9, 3.652977696066682*^9}, {
+   3.652977749193468*^9, 3.6529778345905285`*^9}, {3.6529779779795666`*^9, 
+   3.6529779955668974`*^9}, {3.6529780581331453`*^9, 3.652978059097826*^9}, {
+   3.6529787174813175`*^9, 3.6529787185558324`*^9}, {3.6529787587885103`*^9, 
+   3.6529787595040035`*^9}, {3.6529788272330184`*^9, 3.652978855113738*^9}, {
+   3.6529792683866606`*^9, 3.6529792751878405`*^9}, {3.652979354460201*^9, 
+   3.6529793787763014`*^9}, {3.652979488136342*^9, 3.652979492288293*^9}, {
+   3.652979527573452*^9, 3.652979598142811*^9}, {3.6529796965523176`*^9, 
+   3.6529797109273596`*^9}, {3.6529799711904106`*^9, 3.6529799798701973`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AbsoluteTiming", "[", 
+  RowBox[{"Length", "[", 
+   RowBox[{"StringPosition", "[", 
+    RowBox[{"string0", ",", "string1"}], "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.652979614207141*^9, 3.6529796444197397`*^9}, {
+  3.6531505542953973`*^9, 3.6531505563891697`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"2.7672276759845102`", ",", "5600"}], "}"}]], "Output",
+ CellChangeTimes->{{3.6529796298717747`*^9, 3.6529796648277063`*^9}, 
+   3.652979950383733*^9, {3.65297998583731*^9, 3.6529800294436893`*^9}, 
+   3.653150076925288*^9, 3.653150120378233*^9, {3.6531505297562995`*^9, 
+   3.6531505594889812`*^9}, 3.653150730323666*^9, 3.6531507862268734`*^9, 
+   3.6531508381502514`*^9, 3.653151005213103*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AbsoluteTiming", "[", 
+  RowBox[{"ParallelStringPosition", "[", 
+   RowBox[{"string0", ",", "string1"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.651370388475807*^9, 3.6513704013381042`*^9}, {
+  3.651370440096858*^9, 3.651370442206235*^9}, {3.6529796044322696`*^9, 
+  3.6529796081909227`*^9}, {3.653150481189248*^9, 3.6531505181583557`*^9}, {
+  3.653150549964635*^9, 3.6531505521498775`*^9}, {3.6531505858512793`*^9, 
+  3.6531506433139524`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"5.126070361730198`", ",", "5600"}], "}"}]], "Output",
+ CellChangeTimes->{{3.6529788372559323`*^9, 3.6529788575770006`*^9}, {
+   3.6529792367218027`*^9, 3.652979345686351*^9}, {3.6529793807360706`*^9, 
+   3.652979416242669*^9}, {3.652979481794427*^9, 3.652979495165074*^9}, {
+   3.6529795427473416`*^9, 3.652979555897833*^9}, {3.652979588081294*^9, 
+   3.652979609510825*^9}, {3.6529796494998484`*^9, 3.6529796655982513`*^9}, 
+   3.652979952669344*^9, {3.6529799879993286`*^9, 3.652980002997875*^9}, 
+   3.6529800351477337`*^9, 3.6531500806229057`*^9, 3.6531501254698505`*^9, {
+   3.653150491903829*^9, 3.6531505238611298`*^9}, {3.6531505646793823`*^9, 
+   3.653150609643879*^9}, {3.6531506627896214`*^9, 3.6531506776951647`*^9}, {
+   3.6531507308364863`*^9, 3.65315074458101*^9}, 3.6531507867727585`*^9, 
+   3.653150843314537*^9, 3.653151010359864*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1920, 976},
+WindowMargins->{{-9, Automatic}, {Automatic, -9}},
+CellContext->Notebook,
+Magnification:>1.5 Inherited,
+FrontEndVersion->"10.1 for Microsoft Windows (64-bit) (March 23, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 96, 1, 93, "Section"],
+Cell[679, 25, 70253, 920, 57118, "Input"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[70969, 950, 102, 1, 70, "Section"],
+Cell[71074, 953, 162, 3, 45, "Input"],
+Cell[CellGroupData[{
+Cell[71261, 960, 1081, 21, 45, "Input"],
+Cell[72345, 983, 897, 14, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[73279, 1002, 190, 3, 45, "Input"],
+Cell[73472, 1007, 796, 11, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[74305, 1023, 266, 5, 45, "Input"],
+Cell[74574, 1030, 894, 12, 44, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[75517, 1048, 100, 1, 93, "Section"],
+Cell[CellGroupData[{
+Cell[75642, 1053, 636, 12, 75, "Input"],
+Cell[76281, 1067, 961, 15, 44, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[77291, 1088, 109, 1, 93, "Section"],
+Cell[CellGroupData[{
+Cell[77425, 1093, 98, 1, 51, "Subsubsection"],
+Cell[77526, 1096, 1418, 38, 1113, "Input"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[78981, 1139, 98, 1, 40, "Subsubsection"],
+Cell[79082, 1142, 2235, 58, 191, "Input"],
+Cell[CellGroupData[{
+Cell[81342, 1204, 217, 4, 45, "Input"],
+Cell[81562, 1210, 1152, 21, 44, "Output"]
+}, Open  ]],
+Cell[82729, 1234, 2887, 56, 278, "Input"],
+Cell[CellGroupData[{
+Cell[85641, 1294, 300, 6, 45, "Input"],
+Cell[85944, 1302, 435, 7, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[86416, 1314, 474, 8, 45, "Input"],
+Cell[86893, 1324, 892, 13, 77, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
