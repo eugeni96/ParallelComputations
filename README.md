@@ -16,3 +16,5 @@
 ###WM
 | status |   Task Name  |
 |--------|--------------|
+| done | Par search substring |
+| done | Par factorial |
