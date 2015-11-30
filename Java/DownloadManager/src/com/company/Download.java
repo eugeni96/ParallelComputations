@@ -25,9 +25,8 @@ public class Download implements Runnable {
 
     private String fileName;
 
-    public Download(String name, URL url, String outputFolder)
+    public Download(URL url, String outputFolder)
     {
-        this.name = name;
         this.url = url;
         this.outputFolder = outputFolder;
         String fileURL = url.getFile();
@@ -53,7 +52,7 @@ public class Download implements Runnable {
     {
         if(thread == null)
         {
-            thread = new Thread(this, name);
+            thread = new Thread(this);
             thread.start();
         }
     }

@@ -23,9 +23,9 @@ public class Manager {
         return downloads;
     }
 
-    public Download addDownload(String name, URL url, String outputFolder) throws IOException
+    public Download addDownload(URL url, String outputFolder) throws IOException
     {
-        Download download = new Download(name, url, outputFolder);
+        Download download = new Download(url, outputFolder);
         downloads.add(download);
         download.start();
         return download;
