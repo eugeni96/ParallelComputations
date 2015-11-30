@@ -11,7 +11,7 @@ for i = 1:length(S)
             end
         end
     end
-    max = S(u - L(u,v):L(u,v));
+    max = L;
 end
             
             
